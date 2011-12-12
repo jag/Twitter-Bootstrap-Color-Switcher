@@ -8,8 +8,8 @@ The color switcher can be useful if you are in the process of deciding witch mai
 
 How to use it?
 --------------
-* Get twitter `bootstrap`_ with the `dropdown JavaScript`_ 
-* This color switcher also uses `jQuery get it here`_
+* Get twitter bootstrap (http://twitter.github.com/bootstrap/) with the dropdown JavaScript (http://twitter.github.com/bootstrap/javascript.html#dropdown)
+* This color switcher also uses jQuery (http://jquery.com/)
 * Add the bootstrap-color-switcher.js file to your web project and reference it in your html file(s)
 * In your navigation bar add the following menu item to get the switcher::
 
@@ -82,8 +82,3 @@ Todos
 -----
 * Change the text color of the topbar depending on light and dark background colors
 * Add text fieds or color switchers to enable entering custom color schemes without adding them programatically
-
-
-.. _`bootstrap` http://twitter.github.com/bootstrap/
-.. _`dropdown JavaScript` http://twitter.github.com/bootstrap/javascript.html#dropdown
-.. _`jQuery get it here` http://jquery.com/
