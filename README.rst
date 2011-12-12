@@ -11,7 +11,39 @@ How to use it?
 * Get twitter `bootstrap`_ with the `dropdown JavaScript`_ 
 * This color switcher also uses `jQuery get it here`_
 * Add the bootstrap-color-switcher.js file to your web project and reference it in your html file(s)
-* In the jQuery $(document).ready paste the following code to initialize the script::
+* In your navigation bar add the following menu item to get the switcher::
+
+	<ul class="dropdown-menu bootstrap-color-switcher">
+			<li>
+				<a href="#" data-color-switcher="black">black</a>
+			</li>
+			<li>
+				<a href="#" data-color-switcher="white">white</a>
+			</li>
+			<li>
+				<a href="#" data-color-switcher="blue">blue</a>
+			</li>
+			<li>
+				<a href="#" data-color-switcher="green">green</a>
+			</li>
+			<li>
+				<a href="#" data-color-switcher="red">red</a>
+			</li>
+			<li>
+				<a href="#" data-color-switcher="purple">purple</a>
+			</li>
+			<li>
+				<a href="#" data-color-switcher="grey">grey</a>
+			</li>
+			<li>
+				<a href="#" data-color-switcher="orange">orange</a>
+			</li>
+		</ul>
+		
+* Important is to add the "bootstrap-color-switcher" class to the <ul>. The links with the <ul> use the "data-color-switcher" attribute to map the color patterns you specify. Read about the color patterns in the next paragraph
+* You don't have to use the color switcher in the topbar. But it works quite nicely. Check the index.html example to see how it works.
+
+* To initialize the script paste the following code into the jQuery $(document).ready function::
 
 
 	$(document).ready(function() {
@@ -52,6 +84,6 @@ Todos
 * Add text fieds or color switchers to enable entering custom color schemes without adding them programatically
 
 
-.. _`bootstrap` 
-.. _`dropdown JavaScript`
-.. _`jQuery get it here`
+.. _`bootstrap` http://twitter.github.com/bootstrap/
+.. _`dropdown JavaScript` http://twitter.github.com/bootstrap/javascript.html#dropdown
+.. _`jQuery get it here` http://jquery.com/
